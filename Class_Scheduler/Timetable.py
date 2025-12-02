@@ -1,0 +1,48 @@
+timetable = {
+    "Monday": {
+        "9:00 AM to 10:00 AM": {"Course": "Mathematics", "Classroom": "Room 101"},
+        "10:00 AM to 11:00 AM": {"Course": "Physics", "Classroom": "Room 102"},
+        "11:00 AM to 12:00 PM": {"Course": "Chemistry", "Classroom": "Room 103"},
+        "12:00 PM to 1:00 PM": {"Course": "Biology", "Classroom": "Room 104"},
+        "2:30 PM to 4:00 PM": {"Course": "Computer Science", "Classroom": "Lab 1"},
+        "4:00 PM to 5:30 PM": {"Course": "History", "Classroom": "Room 105"},
+        "US" : {"6:30 PM to 9:00 PM" : {"Course": "DigiFab", "Classroom": "LHC 2"}},
+    },
+    "Tuesday": {
+        "9:00 AM to 10:00 AM": {"Course": "English", "Classroom": "Room 201"},
+        "10:00 AM to 11:00 AM": None,
+        "11:00 AM to 12:00 PM": {"Course": "Economics", "Classroom": "Room 203"},
+        "12:00 PM to 1:00 PM": {"Course": "Political Science", "Classroom": "Room 204"},
+        "2:30 PM to 4:00 PM": None,
+        "4:00 PM to 5:30 PM": {"Course": "Physical Education", "Classroom": "Gym"},
+        "US" : None,
+    },
+    "Wednesday": {
+        "9:00 AM to 10:00 AM": {"Course": "Mathematics", "Classroom": "Room 101"},
+        "10:00 AM to 11:00 AM": {"Course": "Physics", "Classroom": "Room 102"},
+        "11:00 AM to 12:00 PM": {"Course": "Chemistry", "Classroom": "Room 103"},
+        "12:00 PM to 1:00 PM": {"Course": "Biology", "Classroom": "Room 104"},
+        "2:30 PM to 4:00 PM": {"Course": "Computer Science", "Classroom": "Lab 1"},
+        "4:00 PM to 5:30 PM": {"Course": "History", "Classroom": "Room 105"},
+        "US" : {None : None},
+    },
+    "Thursday": {
+        "9:00 AM to 10:00 AM": {"Course": "English", "Classroom": "Room 201"},
+        "10:00 AM to 11:00 AM": {"Course": "Geography", "Classroom": "Room 202"},
+        "11:00 AM to 12:00 PM": {"Course": "Economics", "Classroom": "Room 203"},
+        "12:00 PM to 1:00 PM": {"Course": "Political Science", "Classroom": "Room 204"},
+        "2:30 PM to 4:00 PM": {"Course": "Art", "Classroom": "Art Studio"},
+        "4:00 PM to 5:30 PM": {"Course": "Physical Education", "Classroom": "Gym"},
+        "US" : {None : None},
+    },
+    "Friday": {
+        "9:00 AM to 10:00 AM": {"Course": "Mathematics", "Classroom": "Room 101"},
+        "10:00 AM to 11:00 AM": {"Course": "Physics", "Classroom": "Room 102"},
+        "11:00 AM to 12:00 PM": {"Course": "Chemistry", "Classroom": "Room 103"},
+        "12:00 PM to 1:00 PM": {"Course": "Biology", "Classroom": "Room 104"},
+        "2:30 PM to 4:00 PM": {"Course": "Computer Science", "Classroom": "Lab 1"},
+        "4:00 PM to 5:30 PM": {"Course": "History", "Classroom": "Room 105"},
+        "US" : {None : None},
+    },
+
+}
