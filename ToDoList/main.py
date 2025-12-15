@@ -4,8 +4,6 @@ import asyncio
 from dotenv import load_dotenv
 from methods import To_Do_List 
 from db import db
-import signal
-import sys
 
 application = None
 
