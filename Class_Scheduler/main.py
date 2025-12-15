@@ -11,8 +11,6 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")  
 
-url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-
 def getTimetable(today):
 
     text = ""
@@ -54,10 +52,10 @@ def SendTimetable():
 
 
 if __name__ == "__main__":
-    schedule.every().day.at("14:55").do(SendTimetable)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
+    # schedule.every().day.at("07:00").do(SendTimetable)
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
+    SendTimetable()
 
 
